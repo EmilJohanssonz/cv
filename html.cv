@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emils CV</title>
+  <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+  <nav>
+    <p><a href="https://www.linkedin.com/in/emiijohansson/">Linkedin &#128205;</a></p>
+    <p>!!! &#128383;</p>
+    <p>emilaik@gmail.com &#128390;</p>
+  </nav>
+  <header class="logo">
+    <img src="/img/SmartSelect_20240902_124305_LinkedIn (1).jpg" width="300" height="300">
+    <div class="textnamn">
+      <h1>Emil Johansson</h1>
+      <p id="profiltext"><b>Frontend Developer</b></p>
+    </div>
+  </header>
+  <section class="textOmMig">
+    <p>Motiverad frontendutvecklare . Jag har ett stort intresse för
+      frontendutvecklare och gillar jag gillar små och stora
+      utmaningar.<br> Genom tidigare jobb har jag utvecklat en stark
+      arbetsmoral och är van att lösa problem snabbt och effektivt.<br>
+      Letar nu efter en chans att växa inom tech och bidra till
+      spännande projekt.</p>
+  </section>
+  <table>
+    <tr>
+      <th>|Work Experience|</th>
+      <th>|Summary|</th>
+      <th>|Year|</th>
+      <tr>
+        <td>Flugger färg AB</td>
+        <td>Lagerarbetare
+          Packning och plockning av varor.<br>Ansvarig för utleverans
+          och godsmottagning.<br> Truckkörning från a1 till b5.</td>
+          <td>2018-</td>
+          <tr>
+            <td>CJ Automotive AB</td>
+            <td>Montör
+              Monterade bilpedaler och truckkörning.<br>
+              Ansvarig för gods och leveranser.<br></td>
+              <td>2018-2018</td>
+              <tr>
+                <td>Toyota Material Hanlding</td>
+                <td>Produktion medarbetare<br>
+                  Ansvarig för pulverlackering och
+                  truckkörning,<br>Genomförde kvalitetskontroller och
+                  materialhantering.</td>
+                  <td>2017
+                    -
+                    2018</td>
+                    <tr>
+                      <td>Max hamburgare</td>
+                      <td>Kassabiträde,restaurang
+                        Hanterade kassasystem
+                        kundservice,<br>Ansvarig för köksförberedelser och
+                        matlagning.</td>
+                        <td>2015
+                          -
+                          2017</td>
+                    </tr>
+              </tr>
+          </tr>
+      </tr>
+    </tr>
+  </table>
+  <div class="h3huvud">
+    <h3>Language</h3>
+    <p class="språk">Swedish<br>
+      English</p>
+  </div>
+  <p class="Utbildning"><strong>Education </strong></p>
+  <u1>
+    <li>Frontendutvecklare React|
+      Yrkeshögskolan Borås|
+      Nu varande</li>
+      <li>webbutveckling|
+        Komvux Borås| 2024</li>
+        <li>Bygg och
+          anläggningsprogrammet|Dackeskolan Mjölby|2014-2017</li>
+  </u1>
+
+  
+</body>
+</html>
