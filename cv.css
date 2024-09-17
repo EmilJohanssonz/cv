@@ -1,0 +1,85 @@
+nav {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  background-color: #f0f0f0; 
+  padding: 10px;
+}
+
+nav p {
+  margin: 0 10px; /* Lägger till mellanrum mellan länkarna */
+}
+
+nav a {
+  text-decoration: none;
+  color: #000; 
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.textnamn {
+  margin-left: 20px;
+  margin-top: -250px;
+  font-style: italic;
+}
+#profiltext {
+  margin-top: -20px;
+}
+
+body {
+  background-color: lightgray;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.textOmMig {
+  position: relative;
+  right: -320px;
+  top: -230px;
+  font-style: italic;
+}
+
+table {
+  position: absolute;
+  right:10px;
+  top: 200px;
+  border: 1px solid gray;
+  
+}
+th, td {
+  padding: 15px;
+  font-style: italic;
+}
+
+.h3huvud {
+  font-style: italic;
+  position: relative;
+  left: 350px;
+  top: -230px;
+}
+.språk {
+  margin-top: -10px;
+}
+
+.Utbildning {
+  position: relative;
+  top: -95px;
+  font-style: italic;
+  left: 170px;
+}
+
+u1 {
+  position: relative;
+  top: -100px;
+  left: 20px;
+  
+}
+
+li {
+  font-style: italic;
+  padding: 5px;
+  
+}
