@@ -1,85 +1,119 @@
+/* Globala inställningar */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navigationsfält */
 nav {
   display: flex;
-  justify-content: space-around; 
-  align-items: center; 
-  background-color: #f0f0f0; 
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
   padding: 10px;
 }
 
 nav p {
-  margin: 0 10px; /* Lägger till mellanrum mellan länkarna */
+  margin: 0;
 }
 
 nav a {
+  color: #fff;
   text-decoration: none;
-  color: #000; 
 }
 
-header {
+nav p, nav a {
+  color: white;
+  font-size: 14px;
+}
+
+/* Profil-sektion */
+.profile {
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin: 20px 0;
 }
 
-.textnamn {
-  margin-left: 20px;
-  margin-top: -250px;
-  font-style: italic;
+.profile-img {
+  border-radius: 50%;
+  margin-right: 20px;
 }
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 #profiltext {
-  margin-top: -20px;
+  font-size: 1.2rem;
+  color: #555;
 }
 
-body {
-  background-color: lightgray;
-  max-width: 100%;
-  overflow: hidden;
+/* Info-sektion */
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .textOmMig {
-  position: relative;
-  right: -320px;
-  top: -230px;
+  width: 60%;
   font-style: italic;
+  padding-right: 20px;
 }
 
-table {
-  position: absolute;
-  right:10px;
-  top: 200px;
-  border: 1px solid gray;
-  
-}
-th, td {
-  padding: 15px;
-  font-style: italic;
-}
-
-.h3huvud {
-  font-style: italic;
-  position: relative;
-  left: 350px;
-  top: -230px;
-}
 .språk {
-  margin-top: -10px;
-}
-
-.Utbildning {
-  position: relative;
-  top: -95px;
+  width: 30%;
   font-style: italic;
-  left: 170px;
 }
 
-u1 {
-  position: relative;
-  top: -100px;
-  left: 20px;
-  
+/* Tabell för arbetserfarenhet */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
-li {
-  font-style: italic;
-  padding: 5px;
-  
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+/* Utbildning-sektion */
+.education {
+  margin: 20px;
+}
+
+.education h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.education ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #333;
 }
