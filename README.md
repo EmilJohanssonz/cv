@@ -1,4 +1,4 @@
-<# 👨‍💻 Emil Johansson - Frontend Developer
+# 👨‍💻 Emil Johansson - Frontend Developer
 
 Welcome to my CV repository! Below you will find a summary of my work experience, education, and contact information. Feel free to explore and connect with me.
 
